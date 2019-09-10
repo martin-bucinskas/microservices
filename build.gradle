@@ -27,4 +27,11 @@ dependencies {
 	// Lombok
 	compileOnly 'org.projectlombok:lombok:1.18.8'
 	annotationProcessor 'org.projectlombok:lombok:1.18.8'
+
+	// Mongo
+	compile 'org.springframework.boot:spring-boot-starter-data-mongodb'
+	// REST
+	compile 'org.springframework.boot:spring-boot-starter-data-rest'
+	// HAL Browser
+	compile 'org.springframework.data:spring-data-rest-hal-browser'
 }
