@@ -10,4 +10,6 @@ import java.util.List;
 public interface ProductRepository extends MongoRepository<Product, String> {
 
     public List<Product> findByProductCategoryName(@Param("productCategory") String productCategoryName);
+
+    public List<Product> findByCode(@Param("code") String code);
 }
